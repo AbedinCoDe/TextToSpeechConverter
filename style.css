@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Courier Prime", monospace;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background: #27303d;
+    background: linear-gradient(90deg, rgba(39, 48, 61, 1) 0%, rgba(23, 91, 130, 1) 0%, rgba(77, 19, 128, 1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.containerWrapper h1{
+    font-size: 38px;
+    color: white;
+}
+
+.containerWrapper span {
+    text-decoration: underline;
+    color: orangered;
+    text-underline-offset: 10px;
+    text-decoration-color: azure;
+    text-decoration-thickness: 4px;
+}
+
+
+
+.containerWrapper textarea{
+    width: 100%;
+    height: 200px;
+    margin-top: 30px;
+    background: #27303d;
+    background: linear-gradient(90deg, rgba(39, 48, 61, 1) 0%, rgba(96, 141, 171, 1) 0%, rgba(62, 93, 130, 1) 100%);
+    outline:none;
+    border:none;
+    border-radius: 10px;
+    resize: none;
+    padding: 20px 10px;
+    font-size: 20px;
+    color:white;
+}
+.containerWrapper textarea, input{
+    caret-color: white;
+}
+.containerWrapper textarea::placeholder{
+    font-size: 20px;
+    color:white;
+}
+
+.row{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    gap:20px;
+}
+.row select {
+    flex: 1;
+    background: #27303d;
+    padding: 10px 20px;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    -webkit-appearance: none;  
+    -moz-appearance: none;    
+    appearance: none;
+    background-image: url(images/down-arrow.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position-x: calc(100% - 20px);
+    background-position-y: 11px;
+    cursor: pointer;
+    color:white;
+}
+
+.row button {
+    display: flex;
+    align-items: center;
+    padding: 10px 30px;
+    border-radius: 23px;
+    gap: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: rgb(124, 86, 72);
+    border: none;
+    outline: none;
+    font-weight: bold;
+    color:white;
+    transition: .3s all ease-in;
+}
+.row button:hover{
+    background-color: #4c71a5;
+    color:white;
+}
+
+.row button img{
+    width:20px;
+}

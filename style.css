@@ -63,7 +63,7 @@
 }
 .row select {
     flex: 1;
-    background: #27303d;
+    background: #4b6d9c;
     padding: 10px 20px;
     border-radius: 30px;
     outline: none;
@@ -88,7 +88,7 @@
     gap: 20px;
     font-size: 20px;
     cursor: pointer;
-    background-color: rgb(124, 86, 72);
+    background-color: rgb(35, 78, 128);
     border: none;
     outline: none;
     font-weight: bold;
